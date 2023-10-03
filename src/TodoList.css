@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+     flex-direction: row; 
+     justify-content: center;
+     text-align: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 90px;
+    border-radius: 25px;
+    background-color: rgb(7, 89, 92);
+}
+.text{
+    color: rgb(174, 171, 177);
+}
+.add{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3px;
+    border-radius: 7px;
+    border: none;
+    margin: 15px;
+    color: rgba(39, 26, 50, 0.601);
+}
+.add:hover{
+    display: flex;
+    color: rgb(181, 214, 243);
+    background-color: rgb(89, 102, 113);
+}
+.add:active{
+    transform: scale(0.96);
+}
+.placeholder{
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    color: rgb(22, 5, 40);;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    color: rgb(5, 16, 27);
+    background-color: rgb(89, 102, 113) ;
+    border-radius: 10px;
+}
+.delete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
